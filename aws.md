@@ -20,11 +20,21 @@ My aws journey and some key points to remember
 
 * S3 (Simple Storage Service)
  - block storage (EBS) vs file storage (EFS, FSx) vs object storage (S3, S3 Glacier)
- - RDS (Relational Database Service)
- - Amazon Aurora
- - DocumentDB 
- - DynamoDB
- - Amazon ElastiCache
+ - s3 glacier
+
+* RDS (Relational Database Service)
+  - Amazon Aurora (high performance mysql and postgres database from amazon)
+  - DocumentDB (aurora but for mongodb)
+  - DynamoDB (nosql serverless database)
+  - DAX (cache database like redis but only for dynamoDb)
+  - Amazon ElastiCache (redis like database)
+  - Redshift (for large datasets and complex analytical workloads)
+  - EMR (for massive amounts of data)
+  - Amazon Athena (query data from s3)
+  - Amazon QuickSight (dashboard of the data, statistics)
+  - Neptune (graph database)
+  - Glue (simplifies preparing data for analytics and machine learning)
+  - DMS (database migration)
 
 * AWS Secret Manager
  - AWS KMS
