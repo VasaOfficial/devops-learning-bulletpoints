@@ -38,3 +38,16 @@ My aws journey and some key points to remember
 
 * AWS Secret Manager
  - AWS KMS
+
+* Route 53
+
+* Amazon Cloudfront
+
+* Amazon VPC
+  - subnet (private and public)
+  - route tables
+  - internet gateway
+  - NAT gateway
+  - aws certificate manager
+  - network acls (what is the difference between security groups and them)
+  - vpc peering
