@@ -39,9 +39,13 @@ My aws journey and some key points to remember
 * AWS Secret Manager
  - AWS KMS
 
-* Route 53
+* Route 53 (DNS service)
+  - simple routing policy 
+  - weighted routing policy
+  - latency routing policy
+  - failover routing policy
 
-* Amazon Cloudfront
+* Amazon Cloudfront (CDN)
 
 * Amazon VPC
   - subnet (private and public)
@@ -55,8 +59,6 @@ My aws journey and some key points to remember
 * AWS Lambda (virtual functions that run on demand)
   - EventBridge
   - StepFunctions
-  - SQS
-  - SNS
   - API Gateway (expose lambda functions as apis to clients )
   - AWS Batch (runs batch jobs on aws across maneged ec2 instances)
   - AppSync
@@ -67,24 +69,40 @@ My aws journey and some key points to remember
 
 * ECR Elastic Container Registry (same thing as docker hub but for aws for storing docker images)
 
-* Elastic Beanstalk (Paas)
+* Elastic Beanstalk (Paas, service that simplifies deploying and scaling web applications by handling infrastructure provisioning and management.)
 
-* CloudFormation 
+* CloudFormation (Infrastructure as code, make templates that can be used on different regions)
 
-* CDK Cloud Development Kit ()
+* CDK Cloud Development Kit (define your infrastructure using programming language)
 
-* CodeDeploy
+* CodeDeploy (automates software deployments to various compute services, streamlining updates and reducing complexity)
 
-* CodeBuild
+* CodeBuild (build and test code on aws, serverless)
 
-* CodePipeline
+* CodePipeline (ci/cd pipeline from code to build to deploy)
 
-* CodeArtifact
+* CodeArtifact (store dependencies and packages on AWS)
 
-* CodeStar
+* CodeStar (unified view for ci/cd pipeline)
 
-* Cloud9
+* Cloud9 (vscode but for aws in browser)
 
-* SSM
+* SSM systems manager (patch, configure, run commands at scale )
 
-* OpsWorks
+* OpsWorks (managed Chef and Puppet in AWS)
+
+* AWS Global Accelerator (improve global application availability and performance)
+
+* AWS Outpost ( AWS services, infrastructure, and tools to your on-premises server for a hybrid cloud experience)
+
+* AWS WaveLength (brings AWS compute and storage services directly to the edge of 5G networks, enabling ultra-low latency applications)
+
+* AWS Local Zones (positioned near users, offering lower latency for applications requiring single-digit millisecond response times.)
+
+* SQS Simple Queue Service (A message queuing system that stores messages for retrieval by one or more consumer applications. Think of it as a waiting line for messages)
+
+* SNS Simple Notification Service (A publish-subscribe service that allows applications to send messages (notifications) to multiple subscribers topics. Imagine sending a message to everyone subscribed to a specific news channel)
+
+* Amazon Kinesis (A service for high-throughput, real-time data streams. Ideal for ingesting and processing large volumes of data continuously, Imagine a fast-flowing river of data)
+
+* Amazon MQ (A managed message broker for reliable message delivery between applications. Focuses on secure, asynchronous communication between applications, Think of it as a secure and reliable mail system for applications)
